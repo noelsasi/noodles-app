@@ -13,7 +13,7 @@ export const fetchBrands = (): AppThunk => async (dispatch) => {
 
     dispatch(
       noodleSlice.actions.setList({
-        list: brandData,
+        list: brandData.splice(0, 10),
         images: imageData,
       })
     );

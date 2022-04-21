@@ -1,5 +1,6 @@
 Simple Next App
 
+#See screenshots folder has reference
 
 Routes
 
